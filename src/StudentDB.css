@@ -1,0 +1,116 @@
+/* StudentDB.css */
+/* Search box styling */
+.search-container {
+  margin-top: 20px;
+}
+
+.search-box {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 70%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #2980b9;
+  outline: none;
+  box-shadow: 0 0 5px #2980b9;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 60%;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  border-color: #27ae60;
+  outline: none;
+  box-shadow: 0 0 5px #27ae60;
+}
+
+.add-btn {
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #219150;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.student-name {
+  font-size: 16px;
+  color: #34495e;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.empty-msg {
+  color: #888;
+  margin-top: 20px;
+}
+.empty-msg:hover {
+  color: #555;
+}
